@@ -1,0 +1,28 @@
+{
+  "name": "laravel-config",
+  "version": "0.0.1",
+  "description": "Implements the configuration Laravel facade on the browser side",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thiagorb/laravel-config"
+  },
+  "main": "dist/laravel-config.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register",
+    "dist": "node_modules/.bin/webpack"
+  },
+  "author": "Thiago Barcala",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "mocha": "^3.0.2",
+    "webpack": "^1.13.1"
+  },
+  "files": [
+    "dist/laravel-config.js",
+    "src"
+  ]
+}
