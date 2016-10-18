@@ -1,6 +1,6 @@
 {
   "name": "laravel-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Implements the configuration Laravel facade on the browser side",
   "repository": {
     "type": "git",
