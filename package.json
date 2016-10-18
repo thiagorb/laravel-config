@@ -8,7 +8,7 @@
   },
   "main": "dist/laravel-config.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register",
+    "test": "mocha -u tdd --compilers js:babel-core/register",
     "dist": "node_modules/.bin/webpack"
   },
   "author": "Thiago Barcala",
