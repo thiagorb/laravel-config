@@ -22,12 +22,4 @@ const Config = {
     }
 }
 
-if (typeof(window) !== 'undefined') {
-    const configDataElement = window.document.getElementById('facades-data-config');
-
-    if (configDataElement) {
-        Config.addConfig(JSON.parse(configDataElement.innerHTML));
-    }
-}
-
 export default Config;
